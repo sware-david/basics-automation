@@ -14,7 +14,7 @@ import io.cucumber.junit.CucumberSerenityRunner;
     glue = "repository",
     stepNotifications = false,
     plugin = {"json:target/build/cucumber.json","pretty"},
-    tags = "@log-002 or @log-001"
+    tags = ""
 )
 public class JunitAutomationTest {
 
