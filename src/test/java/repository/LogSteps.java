@@ -50,4 +50,9 @@ public class LogSteps {
     public void verifico_el_inicio_de_sesión_del_usuario() {
         moduleLogin.loginUser((String) dataStorage.get("user_login"));
     }
+
+    @Dado("muestro logs {string}")
+    public void muestro_logs(String s) {
+        logger.info(s);
+    }
 }
